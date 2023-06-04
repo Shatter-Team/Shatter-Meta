@@ -1,5 +1,5 @@
 """
-Automatically package and sign SHBT release
+Automatically package and sign Shatter release
 """
 
 import shutil
@@ -56,7 +56,7 @@ def update_updater_info(bl_info, branches):
 		# Update version and download info
 		info[branch]["version"] = bl_info["version"]
 		version = make_version(bl_info["version"])
-		info[branch]["download"] = f"https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/{version}/shbt_{version}.zip"
+		info[branch]["download"] = f"https://github.com/Shatter-Team/Shatter/releases/download/{version}/shatter_{version}.zip"
 	
 	# Save update file
 	save_json("update.json", info)
@@ -71,7 +71,7 @@ def main():
 	
 	# Get config values
 	private = conf.get("private_key", "../shbt-private.key")
-	folder = conf.get("basedir", "../Smash-Hit-Blender-Tools")
+	folder = conf.get("basedir", "../Shatter")
 	
 	# Get version
 	bl_info = load_bl_info(folder)
@@ -86,7 +86,7 @@ def main():
 	update_updater_info(bl_info, branches)
 	
 	# Make archive base name
-	zip_file = f"shbt_{version}"
+	zip_file = f"shatter_{version}"
 	
 	# Make the archive file itself
 	print(f"Creating archive '{zip_file}.zip' ...")
@@ -99,6 +99,9 @@ def main():
 	import sign_update
 	
 	sign_update.sign_file(f"../{zip_file}.zip", private)
+	
+	# We also now sign the update info file
+	sign_update.sign_file(f"update.json", private)
 	
 	# Update meta git repo
 	print(f"Git commit to meta repo ...")

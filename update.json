@@ -8,19 +8,19 @@
         ]
     },
     "prerelease": {
-        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.1.7/shbt_2.1.7.zip",
+        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.4/shatter_2023.6.4.zip",
         "version": [
-            2,
-            1,
-            7
+            2023,
+            6,
+            4
         ]
     },
     "stable": {
-        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.1.7/shbt_2.1.7.zip",
+        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.4/shatter_2023.6.4.zip",
         "version": [
-            2,
-            1,
-            7
+            2023,
+            6,
+            4
         ]
     },
     "updatertest": {

@@ -1,6 +1,6 @@
-# Smash Hit Blender Tools Development Scripts
+# Shatter Development Scripts
 
-These are some utilities that make developing smash hit blender tools easier. They are part of a lot of the release workflow.
+These are some utilities that make developing shatter easy. They are part of a lot of the release workflow.
 
 ## Files
 
@@ -22,7 +22,7 @@ python ./create_release.py prerelease stable
 
 ### `sign_update.py`
 
-This will create a signature file for an SHBT update, given the path to the zip and the private key.
+This will create a signature file for a Shatter update, given the path to the zip and the private key.
 
 If you don't have a key pair, run:
 
