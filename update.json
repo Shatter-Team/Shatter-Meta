@@ -1,12 +1,4 @@
 {
-    "next": {
-        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.99.0/shbt_2.99.0.zip",
-        "version": [
-            2,
-            99,
-            0
-        ]
-    },
     "prerelease": {
         "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.9/shatter_2023.6.9.zip",
         "version": [
@@ -29,7 +21,7 @@
             2,
             0
         ],
-        "download": "https://x-powered-by.invalid/rektlmao_69.420.621.zip",
+        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.9/shatter_2023.6.9.zip",
         "version": [
             2999,
             12,
