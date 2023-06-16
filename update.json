@@ -8,19 +8,19 @@
         ]
     },
     "prerelease": {
-        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.9/shatter_2023.6.9.zip",
+        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.16/shatter_2023.6.16.zip",
         "version": [
             2023,
             6,
-            9
+            16
         ]
     },
     "stable": {
-        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.9/shatter_2023.6.9.zip",
+        "download": "https://github.com/Shatter-Team/Shatter/releases/download/2023.6.16/shatter_2023.6.16.zip",
         "version": [
             2023,
             6,
-            9
+            16
         ]
     },
     "updatertest": {
